@@ -1,0 +1,43 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Дет
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pictureBox2.Visible = true;
+            pictureBox3.Visible = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            pictureBox4.Visible = true;
+            pictureBox5.Visible = true;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            pictureBox6.Visible = true;
+            pictureBox7.Visible = true;
+        }
+    }
+}
